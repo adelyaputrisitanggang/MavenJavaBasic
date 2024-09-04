@@ -2,7 +2,7 @@ package org.automation;
 
 import java.util.Scanner; // Import for user input
 
-public class ShapeDrawer {
+public class Practical_Assessment_1 {
     // Instance of Scanner to read user input
     private final Scanner scanner = new Scanner(System.in);
 
@@ -144,7 +144,7 @@ public class ShapeDrawer {
 
     // Main method to start the program
     public static void main(String[] args) {
-        ShapeDrawer drawer = new ShapeDrawer();
+        Practical_Assessment_1 drawer = new Practical_Assessment_1();
         drawer.run();
     }
 }
